@@ -12,5 +12,6 @@ webView = QWebView();
 
 webView.settings().setAttribute(QWebSettings.globalSettings().PluginsEnabled, True)
 webView.load(QUrl("http://google.se"))
+
 webView.show()
 sys.exit(app.exec_())
