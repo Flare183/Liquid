@@ -14,11 +14,8 @@ MainWindow::MainWindow(QWidget *parent)
 
     QWebSettings::globalSettings()->setAttribute(QWebSettings::PluginsEnabled, true);
 
-
-
-
-
     connect(url, SIGNAL(returnPressed()), this, SLOT(loadUrl()));
+    connect(browser, SIGNAL(urlChanged(QUrl)), this, SLOT(setText()));
 }
 
 void MainWindow::setupToolBar()
@@ -29,6 +26,12 @@ void MainWindow::loadUrl()
 {
     browser->load(QUrl(url->text()));
     browser->show();
+}
+
+void MainWindow::setText()
+{
+    QUrl m_url = browser->url();
+    url->setText(m_url.toString());
 }
 
 MainWindow::~MainWindow()

@@ -15,6 +15,7 @@ public:
     ~MainWindow();
 private slots:
     void loadUrl();
+    void setText();
 private:
     void setupToolBar();
 
