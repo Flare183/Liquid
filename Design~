@@ -21,14 +21,9 @@ Since our language of choice is python, it should not be intended to use on anci
 but any computer made in the last 3-5 years should be able to run it at full speed.
 Extended functionality, providing user interaction whenever it is needed.
 
-Personal wishes:
-Tabbed, why can't everything be tabbed? Multiple instances of the same program is annoying.
-This is just my(Nibble) wish for now. We could argue about it on irc for a while if you have any objections.
-
 Some basic stuff we will need:
 Browser(should provide functions like bookmarks and flash, again Qt makes this a brease.)
 Taskbar(includes app menu, systray and window list. 
 Should be kept very clean and integrate good with different backgrounds.)
 Editor(Nothing fancy, just an editor, no IDE functionality needed.)
 IRC client(this is an everyday application, not highest priority though.)
-File Manager(Again should be kept clean and simple)
