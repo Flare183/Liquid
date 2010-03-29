@@ -2,7 +2,10 @@
 #define MAINWINDOW_H
 
 #include <QtGui/QMainWindow>
+#include <QtWebKit>
 
+#include <QLineEdit>
+#include <QToolBar>
 class MainWindow : public QMainWindow
 {
     Q_OBJECT
@@ -10,6 +13,14 @@ class MainWindow : public QMainWindow
 public:
     MainWindow(QWidget *parent = 0);
     ~MainWindow();
+private slots:
+    void loadUrl();
+private:
+    void setupToolBar();
+
+    QToolBar * toolBar;
+    QWebView * browser;
+    QLineEdit * url;
 };
 
 #endif // MAINWINDOW_H
