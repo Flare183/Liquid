@@ -32,9 +32,3 @@ Should be kept very clean and integrate good with different backgrounds.)
 Editor(Nothing fancy, just an editor, no IDE functionality needed.)
 IRC client(this is an everyday application, not highest priority though.)
 File Manager(Again should be kept clean and simple)
-
-Naming conventions:
-We went with the C style, liquid_new() and _liquid for member functions/variables.
-
-Intendation:
-Standard python one.
