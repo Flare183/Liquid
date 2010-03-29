@@ -1,10 +1,12 @@
+
 So basic design stuff here...
 
 Language:
 Python
 Library:
 PyQt4
-
+Channel:
+irc://irc.devnode.net/liquid
 We should strive to keep everything simple. Using as few libs and keep "clutter" down
 Functionality beats looks. Since we are not going to write our own WM(yet) the taskbar
 Should be just a taskbar, with tasks, a menu(like gnomes(zc00gii's suggestion) With applications
@@ -27,9 +29,16 @@ This is just my(Nibble) wish for now. We could argue about it on irc for a while
 
 Some basic stuff we will need:
 Browser(should provide functions like bookmarks and flash, again Qt makes this a brease.)
-Taskbar(includes app menu, systray and window list. 
-Should be kept very clean and integrate good with different backgrounds.)
-Editor(Nothing fancy, just an editor, no IDE functionality needed.)
+Taskbar(includes app menu, systray and window list. Should be kept very 
+clean and integrate good with different backgrounds.)
+Background Frontend(an easy to use background manager. Should come with 
+some and use feh as the backend)
+Font Configurer(a program to manage fonts, self explainatory)
+Working "desktop" with shortcuts and such.
+Paint-ish program like MSPaint(GIMP is way to advanced to easily 
+program)
+Editor(Nothing fancy, just an editor, no IDE functionality 
+needed.(thought it would be very nice))
 IRC client(this is an everyday application, not highest priority though.)
 File Manager(Again should be kept clean and simple)
 
